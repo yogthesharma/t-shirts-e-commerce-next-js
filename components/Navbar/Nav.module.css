@@ -1,0 +1,32 @@
+.nav {
+  width: 100%;
+  background-color: #ff3b3f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem 0;
+  color: #efefef;
+}
+
+.container {
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.nav ul {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul li {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.nav ul li:nth-child(3) {
+  font-size: 23px;
+}

@@ -1,0 +1,25 @@
+.slider {
+  width: 100%;
+  min-width: 1100px;
+  height: 89vh;
+  overflow: hidden;
+}
+
+.slider div {
+  width: 100%;
+  height: 110%;
+  position: relative;
+}
+
+.slider div:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 41, 41, 0.151);
+}
+.image {
+  filter: saturate(2) brightness(1.9) blur(2);
+}

@@ -1,0 +1,46 @@
+.containerDiv {
+  display: flex;
+  align-items: center;
+  height: 89vh;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #eee;
+  position: relative;
+}
+
+.midLine {
+  height: 90%;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.137);
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.144);
+}
+
+/* for registering */
+
+.register input,
+.logins input {
+  width: 350px;
+  height: 29px;
+  padding: 10px 11px;
+  margin: 5px 0;
+  display: block;
+  background-color: blanchedalmond;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  outline: none;
+  font-family: monospace;
+  transition: all 0.2s ease;
+}
+.register input:focus,
+.register input:active,
+.logins input:focus,
+.logins input:active {
+  border: 1px solid rgb(128, 128, 128);
+  background-color: blanchedalmond;
+}
+
+.register input[type="submit"],
+.logins input[type="submit"] {
+  padding: 0;
+  background-color: #ff3b3ee8;
+  color: #eee;
+}
